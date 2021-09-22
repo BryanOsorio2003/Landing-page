@@ -113,11 +113,23 @@ nav ul li a{
 .contISO4{
     grid-column: 2/3;
     grid-row: 2/3;
-
     width: 100%;
     background-color: yellow;
 }
+.cont3 h1{
+    font-family: 'Itim', cursive;
+    text-align: center;
+    font-size: 46px;
+}
+.cont3 p{
+    font-family: 'Lateef', cursive;
+    font-size: 30px;
 
+}
+.cont3{
+    margin-left: 350px;
+    margin-right: 350px;
+}
 
 
 
