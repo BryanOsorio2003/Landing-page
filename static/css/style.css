@@ -194,7 +194,27 @@ nav ul li a{
     margin-left: 350px;
     margin-right: 350px;
 }
+.cont8 h1{
+    font-family: 'Itim', cursive;
+    font-size: 46px;
+    margin-left: 100px;
 
+}
+.cont8 p{
+    font-family: 'Lateef', cursive;
+    font-size: 30px;
+    margin-right: 400px;
+    margin-left: 100px;
+}
+.imgTesting{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    font-family: 'Lateef', cursive;
+    font-size: 20px;
+    text-align: center;
+}
 
 
 @media screen and (min-width: 470px){
