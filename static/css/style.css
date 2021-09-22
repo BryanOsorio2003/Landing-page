@@ -67,6 +67,46 @@ nav ul li a{
     justify-content: center;
     align-items: center;
 }
+.cont2{
+    display: flex;
+    margin-left:10%;
+}
+.cont2 h3{
+    font-family: 'Itim', cursive;
+    text-align: center;
+    font-size: 26px;
+}
+.normas{
+    font-family: 'Itim', cursive;
+    text-align: center;
+    font-size: 46px;
+}
+.contISO1{
+    width: 40%;
+    background-color: red;
+
+}
+.contISO2{
+    width: 40%;
+    margin-left:10%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+.contISO2 p{
+    font-family: 'Lateef', cursive;
+    font-size: 30px;
+    /*margin-left: 500px;*/
+}
+.contISO1 p{
+    font-family: 'Lateef', cursive;
+    font-size: 30px;
+}
+
+
+
+
+
 
 @media screen and (min-width: 470px){
     /*Celulares*/
