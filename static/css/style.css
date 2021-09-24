@@ -330,6 +330,12 @@ footer{
     *{
         width: 768px;
     }
+    header{
+        width: 768px;
+    }
+    .volver{
+        display:none;
+    }
     .cont2{
         display: flex;
         flex-direction: column;
