@@ -53,6 +53,10 @@ nav ul li a{
     width: 100%;
     width: 600px;
 }
+.cont1{
+    max-width: 1000px;
+    margin: auto;
+}
 .cont1-img{
     display: flex;
     justify-content: center;
@@ -106,20 +110,10 @@ nav ul li a{
     background-color: gray;
     grid-column: 1/2;
     grid-row: 1/2;
+    margin-top: 4%;
     border: 2px solid rgb(37, 37, 37);
+    box-shadow: 2px 2px 2px rgb(47, 42, 42);
     
-}
-.contISO1{
-    box-shadow: 2px 2px 2px rgb(47, 42, 42);
-}
-.contISO2{
-    box-shadow: 2px 2px 2px rgb(47, 42, 42);
-}
-.contISO3{
-    box-shadow: 2px 2px 2px rgb(47, 42, 42);
-}
-.contISO4{
-    box-shadow: 2px 2px 2px rgb(47, 42, 42);
 }
 .ISOparrafo{
     height:90%;
@@ -128,22 +122,24 @@ nav ul li a{
     width: 100%;
     grid-column: 2/3;
     grid-row: 1/2;
+    margin-top: 4%;
     background-color: gray;
     display: flex;
     flex-direction: column;
     border: 2px solid rgb(82, 76, 76);
-
+    box-shadow: 2px 2px 2px rgb(47, 42, 42);
 }
-
 .contISO3{
     grid-column: 1/2;
     grid-row: 2/3;
     background-color: gray;
+    box-shadow: 2px 2px 2px rgb(47, 42, 42);
 
     border: 2px solid rgb(82, 76, 76);
 
 }
 .contISO4{
+    box-shadow: 2px 2px 2px rgb(47, 42, 42);
     grid-column: 2/3;
     grid-row: 2/3;
     width: 100%;
@@ -269,34 +265,51 @@ footer{
     .cont1{
         padding: 10px;
     }
+    .cont1 p{
+        width: 550px;
+    }
     .cont2{
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
     .contISO1{
-
         height: 770px;
     }
     .cont3{
         padding: 2px;
         width: 576px;
     }
+    .cont3 p{
+        width: 560px;
+    }
     .cont4{
         padding: 2px;
-        width: 470px;
+        width: 576px;
+    }
+    .cont4 p{
+        width: 560px;
     }
     .cont5{
         padding: 2px;
         width: 576px;
     }
+    .cont5 p{
+        width: 560px;
+    }
     .cont6{
         padding: 2px;
         width: 576px;
     }
+    .cont6 p{
+        width: 560px;
+    }
     .cont7{
         padding: 2px;
         width: 576px;
+    }
+    .cont7 p{
+        width: 560px;
     }
     .imagenISO img{
         width: 576px;
