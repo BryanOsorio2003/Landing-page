@@ -259,13 +259,13 @@ footer{
     justify-content: center;
 }
 
-@media screen and (max-width: 470px){
+@media screen and (max-width: 576px){
     /*Celulares*/
     *{
-        width: 470px;
+        width: 576px;
     }
     header{
-        width: 470px;
+        width: 576px;
     }
     .cont1{
         padding: 10px;
@@ -277,7 +277,7 @@ footer{
     }
     .cont3{
         padding: 2px;
-        width: 470px;
+        width: 576px;
     }
     .cont4{
         padding: 2px;
@@ -285,18 +285,18 @@ footer{
     }
     .cont5{
         padding: 2px;
-        width: 470px;
+        width: 576px;
     }
     .cont6{
         padding: 2px;
-        width: 470px;
+        width: 576px;
     }
     .cont7{
         padding: 2px;
-        width: 470px;
+        width: 576px;
     }
     .imagenISO img{
-        width: 450px;
+        width: 576px;
         height: 300px;
         margin-left: 50px;
     }
@@ -305,5 +305,4 @@ footer{
         font-size: 24px;
         
     }
-    
 }
