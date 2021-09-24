@@ -274,6 +274,10 @@ footer{
         flex-direction: column;
         gap: 10px;
     }
+    .contISO1{
+
+        height: 770px;
+    }
     .cont3{
         padding: 2px;
         width: 576px;
