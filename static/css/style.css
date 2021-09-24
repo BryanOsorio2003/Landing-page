@@ -249,7 +249,6 @@ footer{
     color: white;
 }
 .imagenISO{
-
     display: flex;
     justify-content: center;
 }
@@ -261,6 +260,7 @@ footer{
     }
     header{
         width: 576px;
+
     }
     .cont1{
         padding: 10px;
@@ -320,5 +320,11 @@ footer{
         margin-top: -10%;
         font-size: 24px;
         
+    }
+}
+@media screen and (max-width: 768px){
+    /*Celular vertical*/
+    *{
+        width: 768px;
     }
 }
