@@ -260,14 +260,15 @@ footer{
         width: 576px;
     }
     header{
-        width: 576px;
-
+        display: flex;
+        margin: auto;
     }
     .cont1{
         padding: 10px;
     }
     .cont1 p{
-        width: 550px;
+        display: flex;
+        margin: auto;
     }
     .cont2{
         display: flex;
@@ -281,6 +282,7 @@ footer{
         padding: 2px;
         width: 576px;
     }
+    
     .cont3 p{
         width: 560px;
     }
@@ -327,5 +329,10 @@ footer{
     /*Celular vertical*/
     *{
         width: 768px;
+    }
+    .cont2{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;;
     }
 }
