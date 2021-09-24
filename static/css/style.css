@@ -163,8 +163,9 @@ nav ul li a{
 
 }
 .cont3{
-    margin-left: 350px;
-    margin-right: 350px;
+    padding: 300px ;
+    /*margin-left: 350px;
+    margin-right: 350px;*/
 }
 .cont4 h1{
     font-family: 'Itim', cursive;
@@ -179,8 +180,8 @@ nav ul li a{
     align-items: center;
 }
 .cont4{
-    margin-left: 350px;
-    margin-right: 350px;
+    padding: 300px ;
+
 }
 .cont5 h1{
     font-family: 'Itim', cursive;
@@ -195,8 +196,8 @@ nav ul li a{
     align-items: center;
 }
 .cont5{
-    margin-left: 350px;
-    margin-right: 350px;
+    padding: 300px ;
+
 }
 .cont6 h1{
     font-family: 'Itim', cursive;
@@ -211,8 +212,8 @@ nav ul li a{
     align-items: center;
 }
 .cont6{
-    margin-left: 350px;
-    margin-right: 350px;
+    padding: 300px ;
+
 }
 .cont7 h1{
     font-family: 'Itim', cursive;
@@ -227,8 +228,8 @@ nav ul li a{
     align-items: center;
 }
 .cont7{
-    margin-left: 350px;
-    margin-right: 350px;
+    padding: 300px ;
+
 }
 .cont8 h1{
     font-family: 'Itim', cursive;
@@ -261,10 +262,10 @@ footer{
 @media screen and (max-width: 470px){
     /*Celulares*/
     *{
-        width: 700px;
+        width: 470px;
     }
     header{
-        width: 700px;
+        width: 470px;
     }
     .cont1{
         padding: 10px;
@@ -275,18 +276,34 @@ footer{
         gap: 10px;
     }
     .cont3{
-        left: 0%;
-        margin-right: 1000px;
-        width: 700px;
+        padding: 2px;
+        width: 470px;
     }
-    /*.cont8{
-        margin-right: 500px;
-        margin-left: 0px;
-    }*/
-    /*.cont6{
-        width: 100%;
+    .cont4{
+        padding: 2px;
+        width: 470px;
     }
-    .cont6 p{
-        width: 700px;
-    }*/
+    .cont5{
+        padding: 2px;
+        width: 470px;
+    }
+    .cont6{
+        padding: 2px;
+        width: 470px;
+    }
+    .cont7{
+        padding: 2px;
+        width: 470px;
+    }
+    .imagenISO img{
+        width: 450px;
+        height: 300px;
+        margin-left: 50px;
+    }
+    footer p{
+        margin-top: -10%;
+        font-size: 24px;
+        
+    }
+    
 }
