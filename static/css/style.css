@@ -163,9 +163,8 @@ nav ul li a{
 
 }
 .cont3{
-    padding: 300px ;
-    /*margin-left: 350px;
-    margin-right: 350px;*/
+    max-width: 1000px;
+    margin: auto;
 }
 .cont4 h1{
     font-family: 'Itim', cursive;
@@ -180,8 +179,8 @@ nav ul li a{
     align-items: center;
 }
 .cont4{
-    padding: 300px ;
-
+    max-width: 1000px;
+    margin: auto;
 }
 .cont5 h1{
     font-family: 'Itim', cursive;
@@ -196,8 +195,8 @@ nav ul li a{
     align-items: center;
 }
 .cont5{
-    padding: 300px ;
-
+    max-width: 1000px;
+    margin: auto;
 }
 .cont6 h1{
     font-family: 'Itim', cursive;
@@ -212,8 +211,8 @@ nav ul li a{
     align-items: center;
 }
 .cont6{
-    padding: 300px ;
-
+    max-width: 1000px;
+    margin: auto;
 }
 .cont7 h1{
     font-family: 'Itim', cursive;
@@ -228,8 +227,8 @@ nav ul li a{
     align-items: center;
 }
 .cont7{
-    padding: 300px ;
-
+    max-width: 1000px;
+    margin: auto;
 }
 .cont8 h1{
     font-family: 'Itim', cursive;
@@ -240,7 +239,7 @@ nav ul li a{
 .cont8 p{
     font-family: 'Lateef', cursive;
     font-size: 30px;
-    padding: 15px 100px;
+    
 }
 .imgTesting{
     display: flex;
