@@ -8,6 +8,7 @@
 body{
     margin: 0;
     padding: 0px;
+    width: 100%;
 }
 
 header{
@@ -241,6 +242,7 @@ nav ul li a{
 .imgTesting{
     display: flex;
     justify-content: center;
+    width: 60%;
 }
 footer{
     font-family: 'Lateef', cursive;
@@ -249,6 +251,7 @@ footer{
     margin-top: -4%;
     color: white;
 }
+
 .imagenISO{
     display: flex;
     justify-content: center;
@@ -257,7 +260,8 @@ footer{
 @media screen and (max-width: 576px){
     /*Celulares*/
     *{
-        width: 576px;
+        width: 100%;
+
     }
     header{
         display: flex;
@@ -275,64 +279,52 @@ footer{
         flex-direction: column;
         gap: 10px;
     }
-    .contISO1{
-        height: 770px;
-    }
+
     .cont3{
         padding: 2px;
-        width: 576px;
     }
     
-    .cont3 p{
-        width: 560px;
-    }
+
     .cont4{
         padding: 2px;
-        width: 576px;
+
     }
-    .cont4 p{
-        width: 560px;
-    }
+
     .cont5{
         padding: 2px;
-        width: 576px;
+
     }
-    .cont5 p{
-        width: 560px;
-    }
+
     .cont6{
         padding: 2px;
-        width: 576px;
+
     }
-    .cont6 p{
-        width: 560px;
-    }
+
     .cont7{
         padding: 2px;
-        width: 576px;
+
     }
-    .cont7 p{
-        width: 560px;
-    }
+
     .imagenISO img{
-        width: 576px;
+
         height: 300px;
-        margin-left: 50px;
+        margin-left: 50px; /* PENDIENTE DE QUEDAR CON ESO*/
     }
     footer p{
-        margin-top: -10%;
+        margin-top: -10%; /* PENDIENTE DE QUEDAR CON ESO*/
         font-size: 24px;
         
+    }
+    .volver{
+        display: none;
+    }
+    .footer p{
+        color:red;
     }
 }
 @media screen and (max-width: 768px){
     /*Celular vertical*/
-    *{
-        width: 768px;
-    }
-    header{
-        width: 768px;
-    }
+
     .volver{
         display:none;
     }
@@ -340,5 +332,8 @@ footer{
         display: flex;
         flex-direction: column;
         gap: 10px;;
+    }
+    .footer p{
+        color: red;
     }
 }
